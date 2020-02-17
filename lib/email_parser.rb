@@ -14,8 +14,7 @@
    def parse
      parsed_emails = @email.split(/[\s,]/)
      parsed_emails.delete("")
-     parsed_emails.map do |email|
-       if email = ""
+     parsed_emails  = parsed_emails.uniq 
          
    end
    

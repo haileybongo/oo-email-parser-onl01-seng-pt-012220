@@ -15,6 +15,7 @@
      parsed_emails = @email.split(/[\s,]/)
      parsed_emails.map do |email|
        if email = ""
+         
    end
    
  end

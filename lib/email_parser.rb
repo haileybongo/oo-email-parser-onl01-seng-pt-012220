@@ -15,7 +15,7 @@
      parsed_emails = @email.split(/[\s,]/)
      parsed_emails.map do |email|
        if email = ""
-         
+         pased_emails.delete(value)
    end
    
  end
